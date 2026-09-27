@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blockchain Technology</title>
+<style>
+  body{
+    max-width: 720px;
+    margin: 40px auto;
+    padding: 0 20px;
+    font-family: Georgia, serif;
+    line-height: 1.6;
+    color: #222;
+  }
+  h1{ margin-bottom: 4px; }
+  h2{
+    margin-top: 40px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 6px;
+  }
+  table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+  }
+  th, td{
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+    vertical-align: top;
+  }
+  th{ background: #f2f2f2; }
+  li{ margin-bottom: 8px; }
+</style>
+</head>
+<body>
+
+<h1>Blockchain Technology</h1>
+<p><em>Notes</em></p>
+
+<h2>Definition and Concept</h2>
+<p>Blockchain is a distributed, decentralized digital ledger technology that records transactions across multiple computers (nodes) in such a way that the recorded data cannot be altered retroactively without altering all subsequent blocks and gaining consensus of the network. It was originally conceptualized as the underlying technology for Bitcoin (Satoshi Nakamoto, 2008), but has since evolved into a general-purpose technology used across industries.</p>
+
+<h2>How it Works</h2>
+<ol>
+  <li><strong>Transaction Initiation</strong> - A user initiates a transaction (e.g., transfer of cryptocurrency, data, or asset ownership).</li>
+  <li><strong>Block Formation</strong> - The transaction is grouped with others into a "block."</li>
+  <li><strong>Validation</strong> - Nodes in the network validate the transaction using a consensus mechanism (e.g., Proof of Work, Proof of Stake).</li>
+  <li><strong>Hashing</strong> - Each block is assigned a unique cryptographic hash, and it also stores the hash of the previous block, forming a "chain."</li>
+  <li><strong>Addition to Chain</strong> - Once validated, the block is added permanently to the blockchain, visible to all participants.</li>
+  <li><strong>Immutability</strong> - Any attempt to alter a block changes its hash, breaking the chain and alerting the network.</li>
+</ol>
+
+<h2>Key Characteristics</h2>
+<ul>
+  <li><strong>Decentralization</strong> - No single authority controls the network.</li>
+  <li><strong>Immutability</strong> - Once recorded, data cannot be easily changed.</li>
+  <li><strong>Transparency</strong> - All participants can view the ledger.</li>
+  <li><strong>Consensus-driven</strong> - Validity is agreed upon by network nodes, not a central party.</li>
+  <li><strong>Cryptographic Security</strong> - Uses hashing and public/private key encryption.</li>
+</ul>
+
+<h2>Benefits of Blockchain</h2>
+<table>
+  <tr><th>Benefit</th><th>Explanation</th></tr>
+  <tr><td>Transparency</td><td>All transactions are visible to permitted network participants, reducing information asymmetry.</td></tr>
+  <tr><td>Security</td><td>Cryptographic hashing and distributed consensus make tampering extremely difficult.</td></tr>
+  <tr><td>Decentralization</td><td>Removes reliance on a single point of control or failure (e.g., no central bank/server).</td></tr>
+  <tr><td>Immutability</td><td>Once data is written, it cannot be retroactively changed, ensuring data integrity.</td></tr>
+  <tr><td>Reduced Costs</td><td>Eliminates intermediaries (banks, brokers, notaries), lowering transaction costs.</td></tr>
+  <tr><td>Faster Transactions</td><td>Especially for cross-border payments, compared to traditional banking systems.</td></tr>
+  <tr><td>Traceability</td><td>Useful in supply chains to track the origin and journey of goods.</td></tr>
+  <tr><td>Trust</td><td>Enables trust between unknown parties without a central authority.</td></tr>
+</table>
+
+<h2>Challenges of Blockchain</h2>
+<ul>
+  <li><strong>Scalability</strong> - Public blockchains (e.g., Bitcoin, Ethereum) process far fewer transactions per second than centralized systems like Visa.</li>
+  <li><strong>High Energy Consumption</strong> - Proof of Work-based blockchains require significant computational power.</li>
+  <li><strong>Regulatory Uncertainty</strong> - Lack of clear global legal frameworks for blockchain and cryptocurrencies.</li>
+  <li><strong>Complexity and Skill Gap</strong> - Requires specialized knowledge to develop and maintain.</li>
+  <li><strong>Data Immutability Drawback</strong> - Inability to correct erroneous or fraudulent entries once confirmed.</li>
+  <li><strong>Storage Issues</strong> - Ledger size grows continuously, requiring increasing storage capacity.</li>
+  <li><strong>Interoperability</strong> - Different blockchain platforms often cannot communicate with each other easily.</li>
+  <li><strong>51% Attack Risk</strong> - If a single entity gains majority control of network computing power, it can manipulate the chain.</li>
+  <li><strong>Privacy Concerns</strong> - Full transparency can conflict with confidentiality needs of businesses/individuals.</li>
+</ul>
+
+<h2>Applications of Blockchain</h2>
+<ul>
+  <li><strong>Cryptocurrency</strong> - Bitcoin, Ethereum, and other digital currencies for peer-to-peer transactions.</li>
+  <li><strong>Banking and Finance</strong> - Cross-border payments, smart contracts, fraud reduction.</li>
+  <li><strong>Supply Chain Management</strong> - Tracking goods from origin to destination, ensuring authenticity (e.g., Walmart, IBM Food Trust).</li>
+  <li><strong>Healthcare</strong> - Secure sharing of patient records between authorized institutions.</li>
+  <li><strong>Voting Systems</strong> - Tamper-proof and transparent electronic voting.</li>
+  <li><strong>Real Estate</strong> - Recording property titles and ownership transfers securely.</li>
+  <li><strong>Identity Management</strong> - Decentralized digital identities reducing identity theft.</li>
+  <li><strong>Smart Contracts</strong> - Self-executing contracts with terms directly written into code (Ethereum-based).</li>
+  <li><strong>Intellectual Property &amp; NFTs</strong> - Proving ownership and authenticity of digital assets.</li>
+  <li><strong>Government Records</strong> - Land registries, licenses, and public records management.</li>
+</ul>
+
+</body>
+</html>
